@@ -45,3 +45,10 @@ const team = [
 ];
 
 console.log(team);
+
+const members = document.getElementById('member');
+
+for (let i = 0; i < team.length; i++) {
+    const infomembers = team[i];
+    members.innerHTML += `<li>${infomembers.name} | ${infomembers.work} | ${infomembers.image}</li>`;
+    }
