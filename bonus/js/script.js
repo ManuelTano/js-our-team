@@ -51,6 +51,6 @@ const members = document.getElementById('member');
 for (let i = 0; i < team.length; i++) {
     const infomembers = team[i];
     members.innerHTML += `<div class="col-4 text-center mt-5"> 
-     ${infomembers.name} | ${infomembers.work} <img src="../img/${infomembers.image}"alt="${infomembers.name}"class="mt-4" 
+     ${infomembers.name} | ${infomembers.work} <img src="./img/${infomembers.image}"alt="${infomembers.name}"class="mt-4" 
      </div>`;
     }
